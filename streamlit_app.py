@@ -6,6 +6,8 @@ import time
 from ward_and_wilson_test import read_dates, save_std_out, generate_output, run
 
 
+st.set_page_config(page_title='c14 - Ward and Wilson Test')
+
 # Create a container for the logo with a fixed height of 200 pixels
 with st.container():
     st.image("c14-logo.png", width=150)  # Adjust the path if necessary
