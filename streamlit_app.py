@@ -15,6 +15,14 @@ with st.container():
 # Streamlit interface
 st.title("Ward and Wilson Test")
 
+# Add a download button for the example dataset
+st.download_button(
+    label="Download example dataset",
+    data=open('dataset.csv', 'rb').read(),
+    file_name='dataset.csv',
+    mime='text/csv'
+)
+
 # File uploader
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 
