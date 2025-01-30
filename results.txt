@@ -1,0 +1,13 @@
+Test passed at confidence level of 90%
+RC determinations may refer to the same date
+
+Best estimated date: 1286.1444133110854 +/- 9.49835486180393
+Pooled mean: 1286.1444133110854
+Pooled sigma: 9.49835486180393
+Test statistics: 7.387329216993351
+
+CV1: 7.779440339734858
+CV2: 9.487729036781154
+CV3: 13.276704135987622
+
+Script runtime: 0.03197193145751953 seconds
